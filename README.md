@@ -1,5 +1,5 @@
 # FDA-MAUDE-Data-Analysis-2025
-Analysis of FDA MAUDE adverse event data to identify device safety patterns. Combined multiple datasets, performed data cleaning and aggregation, and uncovered insights on high risk device categories, servicing impact and reporting trends.
+End-to-end analysis of FDA MAUDE adverse event data (~4M records) to identify device safety patterns and reporting trends.
 
 ## Project Overview
 This project analyzes adverse event reports from the FDA MAUDE (Manufacturer and User Facility Device Experience) database to identify patterns in medical device safety, reporting behavior, and risk factors.
@@ -62,7 +62,7 @@ Insight: Some lower volume devices show disproportionately high death rates
 
 ![Third Party Service Impact](event_type_rate_in_third_party_service.png)
 
-Insight: Third-party serviced devices show higher malfunction proportions
+Insight: Third-party serviced devices show a 90% malfunction profile, while manufacturer serviced devices show significantly higher injury and death proportions driven by device type and clinical criticality rather than service quality.
 
 ### 4. Device Availability Analysis
 
@@ -127,5 +127,4 @@ All outputs are consolidated in a docx file and is untouched.
 
 ## Conclusion
 
-This project demonstrates end-to-end data analysis, including data cleaning, transformation, aggregation, and insight generation on a real-world healthcare dataset.
-
+Not all medical device risks are equal. This analysis of 4 million FDA adverse event records reveals that while diabetes devices dominate reporting volume, cardiac and respiratory devices concentrate the most severe outcomes. Who operates a device and who services it significantly shapes the type of adverse event reported suggesting that risk profiling needs to consider the full device ecosystem, not just the device itself.
