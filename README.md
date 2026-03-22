@@ -41,7 +41,7 @@ All analysis steps can be reproduced using the original FDA MAUDE data.
 - Identified top device categories based on report volume
 - Calculated percentage contribution to total reports
 
-![top_reported_device_percent.png](Top Reported Devcie Groups
+![Top Reported Devcie Groups](top_reported_device_percent.png)
 
 Insight: Insulin devices and dental devices dominate reporting (~30% combined)
 
@@ -50,7 +50,7 @@ Insight: Insulin devices and dental devices dominate reporting (~30% combined)
 - Calculated proportion of death events relative to total reports per device
 - Applied minimum report threshold to avoid noise
 
-![death_rate.png](Death Rate by Device)
+![Death Rate by Device](death_rate.png)
 
 Insight: Some lower volume devices show disproportionately high death rates
 
@@ -60,7 +60,7 @@ Insight: Some lower volume devices show disproportionately high death rates
   - Manufacturer-serviced devices
   - Third-party serviced devices
 
-![event_type_rate_in_third_party_service.png](Third Party Service Impact)
+![Third Party Service Impact](event_type_rate_in_third_party_service.png)
 
 Insight: Third-party serviced devices show higher malfunction proportions
 
@@ -72,7 +72,7 @@ Insight: Third-party serviced devices show higher malfunction proportions
   - Returned
   - Not Available
  
-![device_availability_analysis.png](Device Availability Analysis)
+![Device Availability Analysis](device_availability_analysis.png)
 
 Insight: Returned devices show relatively higher injury proportions
 
@@ -83,7 +83,7 @@ Insight: Returned devices show relatively higher injury proportions
   - Patients
   - Unknown
  
-![device_operator_analysis.png](Device Operator Analysis)
+![Device Operator Analysis](device_operator_analysis.png)
 
 Insight: Health professionals report more injuries, patients predominantly report malfunctions
 
