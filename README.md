@@ -40,14 +40,18 @@ All analysis steps can be reproduced using the original FDA MAUDE data.
 
 - Identified top device categories based on report volume
 - Calculated percentage contribution to total reports
+
 ![top_reported_device_percent.png](Top Reported Devcie Groups
+
 Insight: Insulin devices and dental devices dominate reporting (~30% combined)
 
 ### 2. Death Rate by Device
 
 - Calculated proportion of death events relative to total reports per device
 - Applied minimum report threshold to avoid noise
+
 ![death_rate.png](Death Rate by Device)
+
 Insight: Some lower volume devices show disproportionately high death rates
 
 ### 3. Third Party Servicing Impact
@@ -55,7 +59,9 @@ Insight: Some lower volume devices show disproportionately high death rates
 - Compared event distribution across:
   - Manufacturer-serviced devices
   - Third-party serviced devices
+
 ![event_type_rate_in_third_party_service.png](Third Party Service Impact)
+
 Insight: Third-party serviced devices show higher malfunction proportions
 
 ### 4. Device Availability Analysis
@@ -65,7 +71,9 @@ Insight: Third-party serviced devices show higher malfunction proportions
   - Available
   - Returned
   - Not Available
+ 
 ![device_availability_analysis.png](Device Availability Analysis)
+
 Insight: Returned devices show relatively higher injury proportions
 
 ### 5. Device Operator Analysis
@@ -74,7 +82,9 @@ Insight: Returned devices show relatively higher injury proportions
   - Health professionals
   - Patients
   - Unknown
+ 
 ![device_operator_analysis.png](Device Operator Analysis)
+
 Insight: Health professionals report more injuries, patients predominantly report malfunctions
 
 ### 6. Product Code Mapping
@@ -93,12 +103,14 @@ Insight: Health professionals report more injuries, patients predominantly repor
 
 Generated CSV outputs include:
 
-- top_30_device_group.csv
-- top_30_device_group_percent.csv
+- top_30_death_devices.csv
 - death_rate.csv
 - third_party_event_rate.csv
-- third_party_service_malfunction.csv
+- device_available.csv
+- operator_event.csv
 - device_report_product_code.csv
+
+All outputs are consolidated in a docx file and is untouched.
 
 ## Limitations
 
