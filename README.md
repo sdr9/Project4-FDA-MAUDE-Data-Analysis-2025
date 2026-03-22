@@ -30,6 +30,11 @@ Key preprocessing steps included:
   - GENERIC_NAME_CLEAN
 - Removing irrelevant categories such as "NO MATCH"
 
+## Data Note
+The full dataset (~800MB) is not included due to size constraints.  
+A cleaned sample dataset is provided for demonstration.  
+All analysis steps can be reproduced using the original FDA MAUDE data.
+
 ## Key Analyses
 ### 1. Top Reported Device Groups
 
